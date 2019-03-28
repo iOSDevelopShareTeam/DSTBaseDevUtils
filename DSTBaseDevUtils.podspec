@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DSTBaseDevUtils'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '基础组件代码库（常用分类 工具类等。'
   s.homepage         = 'https://github.com/iOSDevelopShareTeam/DSTBaseDevUtils.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
   s.source_files = 'DSTBaseDevUtils/Classes/**/*.{h,m}'
-  s.resources = 'DSTBaseDevUtils/Assets/*.bundle'
+  s.resources = 'DSTBaseDevUtils/Assets/*.{png,bundle}'
   s.public_header_files = 'DSTBaseDevUtils/Classes/**/*.h'
   s.static_framework = true
   s.frameworks = 'UIKit'
