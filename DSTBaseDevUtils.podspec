@@ -9,11 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'DSTBaseDevUtils'
   s.version          = '0.0.2'
-  s.summary          = '基础组件代码库（常用分类 工具类等。'
+  s.summary          = '基础组件代码库（常用分类 工具类等。）'
   s.homepage         = 'https://github.com/iOSDevelopShareTeam/DSTBaseDevUtils.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shavekeivn' => 'shavekeivn@gmail.cn' }
+  s.author           = { 'shavekevin' => 'shavekevin@gmail.cn' }
   s.source           = { :git => 'https://github.com/iOSDevelopShareTeam/DSTBaseDevUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '8.0'
