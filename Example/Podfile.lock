@@ -1,0 +1,16 @@
+PODS:
+  - DSTBaseDevUtils (0.0.2)
+
+DEPENDENCIES:
+  - DSTBaseDevUtils (from `../`)
+
+EXTERNAL SOURCES:
+  DSTBaseDevUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSTBaseDevUtils: 5dc8a620f8244484901c7be63b0a9d6bae27a97c
+
+PODFILE CHECKSUM: 8f1814ed4e04eceb854a6d5368b49b72a0de4add
+
+COCOAPODS: 1.5.3
