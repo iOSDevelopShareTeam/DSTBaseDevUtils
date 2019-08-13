@@ -1,12 +1,13 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
-source 'git@github.com:iOSDevelopShareTeam/DSTBaseDevUtils.git'
+source 'git@github.com:iOSDevelopShareTeam/DSTSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'Example' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
   pod 'DSTBaseDevUtils', :path => '../'
-
+  # 加载部分需要的submoudle
+#  pod 'DSTBaseDevUtils/DSTUIKit/DSTButton'
   # Pods for Example
 
 end
