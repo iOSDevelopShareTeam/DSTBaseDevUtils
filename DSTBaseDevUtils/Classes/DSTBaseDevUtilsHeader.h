@@ -8,6 +8,6 @@
 #ifndef DSTBaseDevUtilsHeader_h
 #define DSTBaseDevUtilsHeader_h
 
-#import <DSTBaseDevUtils/UIButton+Position.h>
-
+#import <DSTBaseDevUtils/UIButton+DSTPosition.h>
+#import <DSTBaseDevUtils/DSTStringUtils.h>
 #endif /* DSTBaseDevUtilsHeader_h */

@@ -31,12 +31,12 @@ typedef NS_ENUM(NSInteger, DSTImagePosition) {
     eDSTImagePositionBottom = 3,
 };
 
-@interface UIButton (Position)
+@interface UIButton (DSTPosition)
 
 /**
  @author shavekevin, 16-05-11
  
- @brief Description
+ @brief set image position just for UIbutton
  
  @param postion 设置button上图片显示的位置
  @param spacing 间距

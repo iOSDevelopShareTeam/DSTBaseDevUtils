@@ -1,5 +1,11 @@
 PODS:
-  - DSTBaseDevUtils (0.0.2)
+  - DSTBaseDevUtils (0.0.2):
+    - DSTBaseDevUtils/DSTUIKit (= 0.0.2)
+  - DSTBaseDevUtils/DSTUIKit (0.0.2):
+    - DSTBaseDevUtils/DSTUIKit/DSTButton (= 0.0.2)
+    - DSTBaseDevUtils/DSTUIKit/DSTString (= 0.0.2)
+  - DSTBaseDevUtils/DSTUIKit/DSTButton (0.0.2)
+  - DSTBaseDevUtils/DSTUIKit/DSTString (0.0.2)
 
 DEPENDENCIES:
   - DSTBaseDevUtils (from `../`)
@@ -9,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DSTBaseDevUtils: 5dc8a620f8244484901c7be63b0a9d6bae27a97c
+  DSTBaseDevUtils: 903cbb06006935adf8d66453b0c5d2557d9d902f
 
 PODFILE CHECKSUM: 8f1814ed4e04eceb854a6d5368b49b72a0de4add
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.3

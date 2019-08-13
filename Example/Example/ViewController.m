@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import <DSTBaseDevUtils/UIButton+DSTPosition.h>
+#import <DSTBaseDevUtils/DSTStringUtils.h>
 @interface ViewController ()
 
 @end
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    BOOL curret = [DSTStringUtils isBlankString:@4];
+    if (curret) {
+        NSLog(@"this  is string");
+    } else {
+        NSLog(@"this  is   not string");
+
+    }
 }
 
 

@@ -6,9 +6,9 @@
 //  Copyright © 2019 shavekevin. All rights reserved.
 //
 
-#import "UIButton+Position.h"
+#import "UIButton+DSTPosition.h"
 
-@implementation UIButton (Position)
+@implementation UIButton (DSTPosition)
 - (void)setImagePosition:(DSTImagePosition)postion spacing:(CGFloat)spacing {
     
     [self setTitle:self.currentTitle forState:UIControlStateNormal];
