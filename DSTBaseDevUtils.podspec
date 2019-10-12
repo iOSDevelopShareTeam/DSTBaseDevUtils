@@ -30,5 +30,11 @@ Pod::Spec.new do |s|
       sss.public_header_files = 'DSTBaseDevUtils/Classes/DSTUIKit/DSTString/**/*.{h}'
     end
   end
-  
+  s.subspec 'DSTBaseTool' do |ss|
+    ss.subspec 'DSTWeakProxyUtil' do |sss|
+      sss.source_files = 'DSTBaseDevUtils/Classes/DSTBaseTool/DSTWeakProxyUtil/**/*.{h,m}'
+      sss.public_header_files = 'DSTBaseDevUtils/Classes/DSTBaseTool/DSTWeakProxyUtil/**/*.{h}'
+    end
+
+  end
 end

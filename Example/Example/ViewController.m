@@ -9,7 +9,10 @@
 #import "ViewController.h"
 #import <DSTBaseDevUtils/UIButton+DSTPosition.h>
 #import <DSTBaseDevUtils/DSTStringUtils.h>
+
 @interface ViewController ()
+
+@property (nonatomic, weak)  IBOutlet UIButton *testBtn;
 
 @end
 
@@ -22,10 +25,13 @@
     if (curret) {
         NSLog(@"this  is string");
     } else {
-        NSLog(@"this  is   not string");
-
+        NSLog(@"this  is  not string");
     }
+    
+    
 }
+
+
 
 
 @end

@@ -10,4 +10,6 @@
 
 #import <DSTBaseDevUtils/UIButton+DSTPosition.h>
 #import <DSTBaseDevUtils/DSTStringUtils.h>
+#import <DSTBaseDevUtils/DSTWeakProxy.h>
+
 #endif /* DSTBaseDevUtilsHeader_h */

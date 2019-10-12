@@ -14,6 +14,7 @@
 		2CB2A611224C94B30012B254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB2A60F224C94B30012B254 /* LaunchScreen.storyboard */; };
 		2CB2A614224C94B30012B254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB2A613224C94B30012B254 /* main.m */; };
 		8F91E9B1280D49DBDBBC8B71 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE135130FE13FE76B8385A1 /* libPods-Example.a */; };
+		D794E5602351CDF6001DCE52 /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D794E55F2351CDF6001DCE52 /* SourceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		3FCCEBAD83C18B596ED9CC88 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		8EE135130FE13FE76B8385A1 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		946BA69858C88ED822049A1B /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D794E55E2351CDF6001DCE52 /* SourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		D794E55F2351CDF6001DCE52 /* SourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				2CB2A605224C94B10012B254 /* AppDelegate.m */,
 				2CB2A607224C94B10012B254 /* ViewController.h */,
 				2CB2A608224C94B10012B254 /* ViewController.m */,
+				D794E55E2351CDF6001DCE52 /* SourceViewController.h */,
+				D794E55F2351CDF6001DCE52 /* SourceViewController.m */,
 				2CB2A60A224C94B10012B254 /* Main.storyboard */,
 				2CB2A60D224C94B30012B254 /* Assets.xcassets */,
 				2CB2A60F224C94B30012B254 /* LaunchScreen.storyboard */,
@@ -106,6 +111,7 @@
 				2CB2A5FD224C94B10012B254 /* Sources */,
 				2CB2A5FE224C94B10012B254 /* Frameworks */,
 				2CB2A5FF224C94B10012B254 /* Resources */,
+				7496A4DAB71D2A5C3A3E3B30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +186,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7496A4DAB71D2A5C3A3E3B30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -188,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB2A609224C94B10012B254 /* ViewController.m in Sources */,
+				D794E5602351CDF6001DCE52 /* SourceViewController.m in Sources */,
 				2CB2A614224C94B30012B254 /* main.m in Sources */,
 				2CB2A606224C94B10012B254 /* AppDelegate.m in Sources */,
 			);

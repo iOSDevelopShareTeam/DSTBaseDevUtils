@@ -1,16 +1,26 @@
 PODS:
+  - DSTBaseDevUtils (0.0.3):
+    - DSTBaseDevUtils/DSTBaseTool (= 0.0.3)
+    - DSTBaseDevUtils/DSTUIKit (= 0.0.3)
+  - DSTBaseDevUtils/DSTBaseTool (0.0.3):
+    - DSTBaseDevUtils/DSTBaseTool/DSTWeakProxyUtil (= 0.0.3)
+  - DSTBaseDevUtils/DSTBaseTool/DSTWeakProxyUtil (0.0.3)
+  - DSTBaseDevUtils/DSTUIKit (0.0.3):
+    - DSTBaseDevUtils/DSTUIKit/DSTButton (= 0.0.3)
+    - DSTBaseDevUtils/DSTUIKit/DSTString (= 0.0.3)
   - DSTBaseDevUtils/DSTUIKit/DSTButton (0.0.3)
+  - DSTBaseDevUtils/DSTUIKit/DSTString (0.0.3)
 
 DEPENDENCIES:
-  - DSTBaseDevUtils/DSTUIKit/DSTButton
+  - DSTBaseDevUtils (from `../`)
 
-SPEC REPOS:
-  "git@github.com:iOSDevelopShareTeam/DSTSpecs.git":
-    - DSTBaseDevUtils
+EXTERNAL SOURCES:
+  DSTBaseDevUtils:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DSTBaseDevUtils: 0b73259db206bb092d0dd0757eaa9126bfe15fb3
+  DSTBaseDevUtils: 0f443561ef6febb97fbc37d8b42bc8984b5a280a
 
-PODFILE CHECKSUM: dcd5c268b3f5126d6a4a606412883f5d1d786221
+PODFILE CHECKSUM: 209e11caf141f23be406cb802f275a972155ad6a
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.8.3
